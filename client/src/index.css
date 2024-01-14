@@ -1,0 +1,44 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: grey; /* Set a background color */
+}
+
+.App {
+  text-align: center;
+}
+
+/* Style for the code generation and submission section */
+.code-section {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Style for the input and buttons */
+.input-container {
+  margin-top: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: blanchedalmond;
+}
+
+/* Style for the verification result */
+.verification-result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: medium;
+  color: white;
+}
